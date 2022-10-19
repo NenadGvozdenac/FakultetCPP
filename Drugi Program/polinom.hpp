@@ -48,7 +48,7 @@ public:
     }
 
     ~Polinom() {
-        
+        delete a;
     }
 
     void unesiPolinom() {
