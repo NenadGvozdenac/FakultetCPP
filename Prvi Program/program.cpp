@@ -42,7 +42,7 @@ int main(int argn, char* argv[]) {
 
     TeloA* teloB = new TeloA(*trougaoIsteIvice, *pravougaonikIsteIvice, ivica);
 
-    std::cout << "Telo B ima povrsinu: " << teloB->getPovrsina() << ". Telo A ima zapreminu: " << teloB->getZapremina() << std::endl;
+    std::cout << "Telo B ima povrsinu: " << teloB->getPovrsina() << ". Telo B ima zapreminu: " << teloB->getZapremina() << std::endl;
 
     delete trougao;
     delete pravougaonik;
